@@ -1,4 +1,4 @@
-# Welcome to the Note Taker App
+# Welcome to the Secret Note Taking App
 
 ## Description
 In this app, users are able to enter a webpage where they are then able to type in notes with note titles. In the future, the notes that the user saves will show up in the bar to the left so it will work more efficiently as a note log. 
