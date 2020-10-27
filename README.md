@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Unit 11 Express Homework: Note Taker
 
 ## Description
@@ -78,4 +79,6 @@ You are required to submit the following:
 
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+=======
 
