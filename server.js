@@ -1,7 +1,7 @@
 // Require Dependencies
 const express = require("express");
-const fs = require("fs");
-const path = require('path');
+const apiRoutes = require('./routes/apiRoutes');
+const htmlRoutes = require('./routes/htmlRoutes');
 
 // Initialize express app
 const app = express();
@@ -13,7 +13,8 @@ app.use(express.json());
 app.use(express.static('public'));
 
 //Require routes file
-require('./routes/routes')(app);
+app.use("/api", apiRoutes);
+app.use("/", htmlRoutes);
 
 // Setup listener
 app.listen(PORT, function() {
